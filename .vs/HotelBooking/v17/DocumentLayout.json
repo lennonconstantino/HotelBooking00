@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0B87E9-4132-4D71-A677-5362CD93ACDE}|Core\\Domain\\Domain.csproj|c:\\users\\iamroot\\source\\repos\\hotelbooking\\core\\domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0B87E9-4132-4D71-A677-5362CD93ACDE}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0B87E9-4132-4D71-A677-5362CD93ACDE}|Core\\Domain\\Domain.csproj|c:\\users\\iamroot\\source\\repos\\hotelbooking\\core\\domain\\enums\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0B87E9-4132-4D71-A677-5362CD93ACDE}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\enums\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0B87E9-4132-4D71-A677-5362CD93ACDE}|Core\\Domain\\Domain.csproj|c:\\users\\iamroot\\source\\repos\\hotelbooking\\core\\domain\\entities\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0B87E9-4132-4D71-A677-5362CD93ACDE}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\entities\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0B87E9-4132-4D71-A677-5362CD93ACDE}|Core\\Domain\\Domain.csproj|c:\\users\\iamroot\\source\\repos\\hotelbooking\\core\\domain\\entities\\guess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0B87E9-4132-4D71-A677-5362CD93ACDE}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\entities\\guess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0B87E9-4132-4D71-A677-5362CD93ACDE}|Core\\Domain\\Domain.csproj|c:\\users\\iamroot\\source\\repos\\hotelbooking\\core\\domain\\ports\\iguestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0B87E9-4132-4D71-A677-5362CD93ACDE}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\ports\\iguestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B442F2-92E6-4F7A-B01E-915049B8FF7B}|Tests\\Domain\\DomainTests\\DomainTests.csproj|c:\\users\\iamroot\\source\\repos\\hotelbooking\\tests\\domain\\domaintests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08B442F2-92E6-4F7A-B01E-915049B8FF7B}|Tests\\Domain\\DomainTests\\DomainTests.csproj|solutionrelative:tests\\domain\\domaintests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C172D05-EEFB-404C-8E68-4F26AD5D90A1}|Tests\\Application\\ApplicationTests\\ApplicationTests.csproj|c:\\users\\iamroot\\source\\repos\\hotelbooking\\tests\\application\\applicationtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C172D05-EEFB-404C-8E68-4F26AD5D90A1}|Tests\\Application\\ApplicationTests\\ApplicationTests.csproj|solutionrelative:tests\\application\\applicationtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86AE88B-1651-4560-BC72-D18ECFBD09EF}|Tests\\Adapters\\AdaptersTests\\AdaptersTests.csproj|c:\\users\\iamroot\\source\\repos\\hotelbooking\\tests\\adapters\\adapterstests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F86AE88B-1651-4560-BC72-D18ECFBD09EF}|Tests\\Adapters\\AdaptersTests\\AdaptersTests.csproj|solutionrelative:tests\\adapters\\adapterstests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D37B7978-A5D8-409D-BC49-E2CA7EAEA14B}|Adapters\\Data\\Data.csproj|c:\\users\\iamroot\\source\\repos\\hotelbooking\\adapters\\data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D37B7978-A5D8-409D-BC49-E2CA7EAEA14B}|Adapters\\Data\\Data.csproj|solutionrelative:adapters\\data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEAB0505-03B5-4555-9711-286BFEF724C1}|Core\\Application\\Application.csproj|c:\\users\\iamroot\\source\\repos\\hotelbooking\\core\\application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEAB0505-03B5-4555-9711-286BFEF724C1}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Core\\Domain\\Enums\\Status.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Enums\\Status.cs",
+              "ToolTip": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Core\\Domain\\Enums\\Status.cs",
+              "RelativeToolTip": "Core\\Domain\\Enums\\Status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T00:35:31.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Core\\Domain\\Entities\\Booking.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Entities\\Booking.cs",
+              "ToolTip": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Core\\Domain\\Entities\\Booking.cs",
+              "RelativeToolTip": "Core\\Domain\\Entities\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T00:33:22.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Core\\Domain\\Entities\\Room.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Entities\\Room.cs",
+              "ToolTip": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Core\\Domain\\Entities\\Room.cs",
+              "RelativeToolTip": "Core\\Domain\\Entities\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T00:25:01.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Guess.cs",
+              "DocumentMoniker": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Core\\Domain\\Entities\\Guess.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Entities\\Guess.cs",
+              "ToolTip": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Core\\Domain\\Entities\\Guess.cs",
+              "RelativeToolTip": "Core\\Domain\\Entities\\Guess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T00:22:26.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGuestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Core\\Domain\\Ports\\IGuestRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Ports\\IGuestRepository.cs",
+              "ToolTip": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Core\\Domain\\Ports\\IGuestRepository.cs",
+              "RelativeToolTip": "Core\\Domain\\Ports\\IGuestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T00:20:46.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Tests\\Domain\\DomainTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Tests\\Domain\\DomainTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Tests\\Domain\\DomainTests\\UnitTest1.cs",
+              "RelativeToolTip": "Tests\\Domain\\DomainTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T00:17:31.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Tests\\Application\\ApplicationTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Tests\\Application\\ApplicationTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Tests\\Application\\ApplicationTests\\UnitTest1.cs",
+              "RelativeToolTip": "Tests\\Application\\ApplicationTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T00:17:05.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Tests\\Adapters\\AdaptersTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Tests\\Adapters\\AdaptersTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Tests\\Adapters\\AdaptersTests\\UnitTest1.cs",
+              "RelativeToolTip": "Tests\\Adapters\\AdaptersTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T00:16:36.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Adapters\\Data\\Class1.cs",
+              "RelativeDocumentMoniker": "Adapters\\Data\\Class1.cs",
+              "ToolTip": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Adapters\\Data\\Class1.cs",
+              "RelativeToolTip": "Adapters\\Data\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T00:15:58.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Core\\Application\\Class1.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\iamroot\\source\\repos\\HotelBooking\\Core\\Application\\Class1.cs",
+              "RelativeToolTip": "Core\\Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T00:12:36.154Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
