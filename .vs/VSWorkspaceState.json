@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Consumers",
+    "\\Core",
+    "\\Core\\Application",
+    "\\Core\\Domain",
+    "\\Tests",
+    "\\Tests\\Adapters",
+    "\\Tests\\Adapters\\AdaptersTests",
+    "\\Tests\\Application",
+    "\\Tests\\Domain"
+  ],
+  "SelectedNode": "\\Core\\Application",
+  "PreviewInSolutionExplorer": false
+}
