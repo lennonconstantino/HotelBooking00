@@ -15,7 +15,7 @@ namespace Domain.Entities
         public DateTime End { get; set; }
         public Status Status { get; set; }
         public Room Room { get; set; }
-        public Guess Guess { get; set; }    
+        public Guest Guess { get; set; }    
         public Status CurrentStatus { get { return this.Status; } }
         public void ChangeState(Action action) {
             this.Status = (this.Status, action) switch

@@ -5,7 +5,7 @@ namespace Domain.Ports
 {
     public interface IGuestRepository
     {
-        Task<Guess> Get(int Id);
-        Task<int> Save(IGuestRepository guest);
+        Task<Guest> Get(int Id);
+        Task<int> Create(Guest guest);
     }
 }
