@@ -82,11 +82,13 @@ namespace ApplicationTests
         }
 
         [TestCase("", "surnametest", "test@test.com")]
+#pragma warning disable NUnit1001
         [TestCase(null, "surnametest", "test@test.com")]
         [TestCase("fulanotest", "", "test@test.com")]
         [TestCase("fulanotest", null, "test@test.com")]
         [TestCase("fulanotest", "surnametest", "")]
         [TestCase("fulanotest", "surnametest", null)]
+#pragma warning restore NUnit1001
         public async Task Should_Return_MissingRequiredInformation_WhenDocsAreInvalid(string name, string surname, string email)
         {
             var guestDto = new GuestDTO
@@ -111,6 +113,52 @@ namespace ApplicationTests
             Assert.IsFalse(res.Success);
             Assert.AreEqual(res.ErrorCodes, ErrorCodes.MISSING_REQUIRED_INFORMATION);
             Assert.AreEqual(res.Message, "Missing Required Information passed is not valid");
+        }
+
+        [Test]
+        public async Task Should_Return_GuestNotFound_When_GuestDoesntExist()
+        { 
+            var fakeRepo = new Mock<IGuestRepository>();
+
+            fakeRepo.Setup(x => x.Get(333)).Returns(Task.FromResult<Guest?>(null));
+
+            guestManager = new GuestManager(fakeRepo.Object);
+
+            var res = await guestManager.GetGuest(333);
+
+            Assert.IsNotNull(res);
+            Assert.IsFalse(res.Success);
+            Assert.AreEqual(res.ErrorCodes, ErrorCodes.GUEST_NOT_FOUND);
+            Assert.AreEqual(res.Message, "No Guest record was found with the given Id");
+        }
+
+        [Test]
+        public async Task Should_Return_Guest_Success()
+        {
+            var fakeRepo = new Mock<IGuestRepository>();
+
+            var fakeGuest = new Guest
+            {
+                Id = 333,
+                Name = "Test",
+                DocumentId = new Domain.ValueObjects.PersonId
+                {
+                    DocumentType = Domain.Enums.DocumentType.DriveLicence,
+                    IdNumber = "123"
+                }
+            };
+
+            fakeRepo.Setup(x => x.Get(333)).Returns(Task.FromResult((Guest?)fakeGuest));
+
+            guestManager = new GuestManager(fakeRepo.Object);
+
+            var res = await guestManager.GetGuest(333);
+
+            Assert.IsNotNull(res);
+            Assert.IsTrue(res.Success);
+            Assert.AreEqual(res.Data.Id, fakeGuest.Id);
+            Assert.AreEqual(res.Data.Name, fakeGuest.Name);
+
         }
     }
 }

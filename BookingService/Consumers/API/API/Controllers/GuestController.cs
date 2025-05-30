@@ -32,8 +32,9 @@ namespace API.Controllers
 
             if (res.Success) return Created("", res.Data);
 
-            if (res.ErrorCodes == ErrorCodes.NOT_FOUND
-                || res.ErrorCodes == ErrorCodes.INVALID_PERSON_ID
+            if (res.ErrorCodes == ErrorCodes.NOT_FOUND) return NotFound(res);
+
+            if (res.ErrorCodes == ErrorCodes.INVALID_PERSON_ID
                 || res.ErrorCodes == ErrorCodes.INVALID_EMAIL
                 || res.ErrorCodes == ErrorCodes.MISSING_REQUIRED_INFORMATION
                 || res.ErrorCodes == ErrorCodes.COULD_NOT_STORE_DATA)
@@ -43,6 +44,14 @@ namespace API.Controllers
 
             _logger.LogError("Reponse with unknown ErrorCode Returned", res);
             return BadRequest(500);
+        }
+    
+        [HttpGet]
+        public async Task<ActionResult<GuestDTO>> Get(int guestId)
+        {
+            var res = await _guestManager.GetGuest(guestId);
+            if (res.Success) return Created("", res.Data);
+            return NotFound(res);
         }
     }
 }
