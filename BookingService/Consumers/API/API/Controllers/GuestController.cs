@@ -32,7 +32,11 @@ namespace API.Controllers
 
             if (res.Success) return Created("", res.Data);
 
-            if (res.ErrorCodes == ErrorCodes.NOT_FOUND)
+            if (res.ErrorCodes == ErrorCodes.NOT_FOUND
+                || res.ErrorCodes == ErrorCodes.INVALID_PERSON_ID
+                || res.ErrorCodes == ErrorCodes.INVALID_EMAIL
+                || res.ErrorCodes == ErrorCodes.MISSING_REQUIRED_INFORMATION
+                || res.ErrorCodes == ErrorCodes.COULD_NOT_STORE_DATA)
             {
                 return BadRequest(res);
             }

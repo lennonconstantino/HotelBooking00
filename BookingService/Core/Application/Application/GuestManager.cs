@@ -2,6 +2,7 @@
 using Application.Guest.Ports;
 using Application.Guest.Request;
 using Application.Guest.Responses;
+using Domain.Exceptions;
 using Domain.Ports;
 using System;
 using System.Collections.Generic;
@@ -25,12 +26,41 @@ namespace Application
                 // preciso criar um repository
                 var guest = GuestDTO.MapToEntity(request.Data);
 
-                request.Data.Id = await _guestRepository.Create(guest);
+                await guest.Save(_guestRepository);
+
+                request.Data.Id = guest.Id;
 
                 return new GuestResponse
                 {
                     Data = request.Data,
                     Success = true,
+                };
+            }
+            catch (InvalidPersonDocumentIdException)
+            {
+                return new GuestResponse
+                {
+                    Success = false,
+                    ErrorCodes = ErrorCodes.INVALID_PERSON_ID,
+                    Message = "The ID passed is not valid"
+                };
+            }
+            catch (MissingRequiredInformationExcpetion)
+            {
+                return new GuestResponse
+                {
+                    Success = false,
+                    ErrorCodes = ErrorCodes.MISSING_REQUIRED_INFORMATION,
+                    Message = "Missing Required Information passed is not valid"
+                };
+            }
+            catch (InvalidEmailException)
+            {
+                return new GuestResponse
+                {
+                    Success = false,
+                    ErrorCodes = ErrorCodes.INVALID_EMAIL,
+                    Message = "The given email is not valid"
                 };
             }
             catch (Exception)
