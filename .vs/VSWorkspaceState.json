@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Consumers",
-    "\\Core",
-    "\\Core\\Application",
-    "\\Core\\Domain",
-    "\\Tests",
-    "\\Tests\\Adapters",
-    "\\Tests\\Adapters\\AdaptersTests",
-    "\\Tests\\Application",
-    "\\Tests\\Domain"
+    "\\BookingService",
+    "\\BookingService\\Adapters",
+    "\\BookingService\\Adapters\\Data",
+    "\\BookingService\\Adapters\\Data\\Migrations",
+    "\\BookingService\\Consumers",
+    "\\BookingService\\Consumers\\API",
+    "\\BookingService\\Consumers\\API\\API",
+    "\\BookingService\\Core",
+    "\\BookingService\\Core\\Application",
+    "\\BookingService\\Core\\Application\\Application"
   ],
-  "SelectedNode": "\\Core\\Application",
   "PreviewInSolutionExplorer": false
 }
