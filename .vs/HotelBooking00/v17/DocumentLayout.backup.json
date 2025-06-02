@@ -3,80 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\core\\domain\\domain\\guest\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|solutionrelative:bookingservice\\core\\domain\\domain\\guest\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2E4997A-820E-43E1-BC10-A98C8026A2D0}|BookingService\\Consumers\\API\\API\\API.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\consumers\\api\\api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E4997A-820E-43E1-BC10-A98C8026A2D0}|BookingService\\Consumers\\API\\API\\API.csproj|solutionrelative:bookingservice\\consumers\\api\\api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{199B0D8B-3115-4138-8EE9-D01AEDAA8814}|BookingService\\Adapters\\Data\\Data.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\adapters\\data\\room\\roomconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{199B0D8B-3115-4138-8EE9-D01AEDAA8814}|BookingService\\Adapters\\Data\\Data.csproj|solutionrelative:bookingservice\\adapters\\data\\room\\roomconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00B90C0A-7D6E-43E4-917A-A3DE1256B0FE}|BookingService\\Core\\Application\\Application\\Application.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\core\\application\\application\\booking\\requests\\createbookingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B90C0A-7D6E-43E4-917A-A3DE1256B0FE}|BookingService\\Core\\Application\\Application\\Application.csproj|solutionrelative:bookingservice\\core\\application\\application\\booking\\requests\\createbookingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{199B0D8B-3115-4138-8EE9-D01AEDAA8814}|BookingService\\Adapters\\Data\\Data.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\adapters\\data\\guest\\guessconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{199B0D8B-3115-4138-8EE9-D01AEDAA8814}|BookingService\\Adapters\\Data\\Data.csproj|solutionrelative:bookingservice\\adapters\\data\\guest\\guessconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\core\\domain\\domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|solutionrelative:bookingservice\\core\\domain\\domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\core\\domain\\domain\\guest\\entities\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|solutionrelative:bookingservice\\core\\domain\\domain\\guest\\entities\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2E4997A-820E-43E1-BC10-A98C8026A2D0}|BookingService\\Consumers\\API\\API\\API.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\consumers\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E4997A-820E-43E1-BC10-A98C8026A2D0}|BookingService\\Consumers\\API\\API\\API.csproj|solutionrelative:bookingservice\\consumers\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\core\\domain\\domain\\room\\entities\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|solutionrelative:bookingservice\\core\\domain\\domain\\room\\entities\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\core\\domain\\domain\\room\\ports\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|solutionrelative:bookingservice\\core\\domain\\domain\\room\\ports\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\core\\domain\\domain\\guest\\ports\\iguestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|solutionrelative:bookingservice\\core\\domain\\domain\\guest\\ports\\iguestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{199B0D8B-3115-4138-8EE9-D01AEDAA8814}|BookingService\\Adapters\\Data\\Data.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\adapters\\data\\room\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{199B0D8B-3115-4138-8EE9-D01AEDAA8814}|BookingService\\Adapters\\Data\\Data.csproj|solutionrelative:bookingservice\\adapters\\data\\room\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\core\\domain\\domain\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|solutionrelative:bookingservice\\core\\domain\\domain\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\core\\domain\\domain\\guest\\enums\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|solutionrelative:bookingservice\\core\\domain\\domain\\guest\\enums\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\core\\domain\\domain\\guest\\exceptions\\invalidemailexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|solutionrelative:bookingservice\\core\\domain\\domain\\guest\\exceptions\\invalidemailexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E4997A-820E-43E1-BC10-A98C8026A2D0}|BookingService\\Consumers\\API\\API\\API.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\consumers\\api\\api\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E4997A-820E-43E1-BC10-A98C8026A2D0}|BookingService\\Consumers\\API\\API\\API.csproj|solutionrelative:bookingservice\\consumers\\api\\api\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E4997A-820E-43E1-BC10-A98C8026A2D0}|BookingService\\Consumers\\API\\API\\API.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\consumers\\api\\api\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E4997A-820E-43E1-BC10-A98C8026A2D0}|BookingService\\Consumers\\API\\API\\API.csproj|solutionrelative:bookingservice\\consumers\\api\\api\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B90C0A-7D6E-43E4-917A-A3DE1256B0FE}|BookingService\\Core\\Application\\Application\\Application.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\core\\application\\application\\room\\roommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00B90C0A-7D6E-43E4-917A-A3DE1256B0FE}|BookingService\\Core\\Application\\Application\\Application.csproj|solutionrelative:bookingservice\\core\\application\\application\\room\\roommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B90C0A-7D6E-43E4-917A-A3DE1256B0FE}|BookingService\\Core\\Application\\Application\\Application.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\core\\application\\application\\room\\ports\\iroommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00B90C0A-7D6E-43E4-917A-A3DE1256B0FE}|BookingService\\Core\\Application\\Application\\Application.csproj|solutionrelative:bookingservice\\core\\application\\application\\room\\ports\\iroommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B90C0A-7D6E-43E4-917A-A3DE1256B0FE}|BookingService\\Core\\Application\\Application\\Application.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\core\\application\\application\\guest\\guestmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00B90C0A-7D6E-43E4-917A-A3DE1256B0FE}|BookingService\\Core\\Application\\Application\\Application.csproj|solutionrelative:bookingservice\\core\\application\\application\\guest\\guestmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B90C0A-7D6E-43E4-917A-A3DE1256B0FE}|BookingService\\Core\\Application\\Application\\Application.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\core\\application\\application\\room\\request\\createroomrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00B90C0A-7D6E-43E4-917A-A3DE1256B0FE}|BookingService\\Core\\Application\\Application\\Application.csproj|solutionrelative:bookingservice\\core\\application\\application\\room\\request\\createroomrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{199B0D8B-3115-4138-8EE9-D01AEDAA8814}|BookingService\\Adapters\\Data\\Data.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\adapters\\data\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{199B0D8B-3115-4138-8EE9-D01AEDAA8814}|BookingService\\Adapters\\Data\\Data.csproj|solutionrelative:bookingservice\\adapters\\data\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\core\\domain\\domain\\guest\\enums\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55648F02-7800-4E86-A6E9-8346A33A9B9A}|BookingService\\Core\\Domain\\Domain\\Domain.csproj|solutionrelative:bookingservice\\core\\domain\\domain\\guest\\enums\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00B90C0A-7D6E-43E4-917A-A3DE1256B0FE}|BookingService\\Core\\Application\\Application\\Application.csproj|c:\\users\\lenno\\documents\\projects\\hotelbooking00\\bookingservice\\core\\application\\application\\booking\\dtos\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00B90C0A-7D6E-43E4-917A-A3DE1256B0FE}|BookingService\\Core\\Application\\Application\\Application.csproj|solutionrelative:bookingservice\\core\\application\\application\\booking\\dtos\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,254 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HotelDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Adapters\\Data\\HotelDbContext.cs",
-              "RelativeDocumentMoniker": "BookingService\\Adapters\\Data\\HotelDbContext.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Adapters\\Data\\HotelDbContext.cs",
-              "RelativeToolTip": "BookingService\\Adapters\\Data\\HotelDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T14:28:39.414Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GuessConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Adapters\\Data\\Guest\\GuessConfiguration.cs",
-              "RelativeDocumentMoniker": "BookingService\\Adapters\\Data\\Guest\\GuessConfiguration.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Adapters\\Data\\Guest\\GuessConfiguration.cs",
-              "RelativeToolTip": "BookingService\\Adapters\\Data\\Guest\\GuessConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Entities\\Booking.cs",
+              "RelativeDocumentMoniker": "BookingService\\Core\\Domain\\Domain\\Entities\\Booking.cs",
+              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Entities\\Booking.cs",
+              "RelativeToolTip": "BookingService\\Core\\Domain\\Domain\\Entities\\Booking.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADgvxAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T19:09:13.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IGuestRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Guest\\Ports\\IGuestRepository.cs",
-              "RelativeDocumentMoniker": "BookingService\\Core\\Domain\\Domain\\Guest\\Ports\\IGuestRepository.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Guest\\Ports\\IGuestRepository.cs",
-              "RelativeToolTip": "BookingService\\Core\\Domain\\Domain\\Guest\\Ports\\IGuestRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T19:23:55.377Z",
+              "WhenOpened": "2025-06-02T22:01:35.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Guest.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Guest\\Entities\\Guest.cs",
-              "RelativeDocumentMoniker": "BookingService\\Core\\Domain\\Domain\\Guest\\Entities\\Guest.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Guest\\Entities\\Guest.cs",
-              "RelativeToolTip": "BookingService\\Core\\Domain\\Domain\\Guest\\Entities\\Guest.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAswDUAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Consumers\\API\\API\\Program.cs",
+              "RelativeDocumentMoniker": "BookingService\\Consumers\\API\\API\\Program.cs",
+              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Consumers\\API\\API\\Program.cs",
+              "RelativeToolTip": "BookingService\\Consumers\\API\\API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T19:18:42.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RoomRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Adapters\\Data\\Room\\RoomRepository.cs",
-              "RelativeDocumentMoniker": "BookingService\\Adapters\\Data\\Room\\RoomRepository.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Adapters\\Data\\Room\\RoomRepository.cs",
-              "RelativeToolTip": "BookingService\\Adapters\\Data\\Room\\RoomRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T19:09:35.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RoomConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Adapters\\Data\\Room\\RoomConfiguration.cs",
-              "RelativeDocumentMoniker": "BookingService\\Adapters\\Data\\Room\\RoomConfiguration.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Adapters\\Data\\Room\\RoomConfiguration.cs",
-              "RelativeToolTip": "BookingService\\Adapters\\Data\\Room\\RoomConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T19:09:14.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IRoomRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Room\\Ports\\IRoomRepository.cs",
-              "RelativeDocumentMoniker": "BookingService\\Core\\Domain\\Domain\\Room\\Ports\\IRoomRepository.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Room\\Ports\\IRoomRepository.cs",
-              "RelativeToolTip": "BookingService\\Core\\Domain\\Domain\\Room\\Ports\\IRoomRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T19:08:45.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Guest\\Entities\\Booking.cs",
-              "RelativeDocumentMoniker": "BookingService\\Core\\Domain\\Domain\\Guest\\Entities\\Booking.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Guest\\Entities\\Booking.cs*",
-              "RelativeToolTip": "BookingService\\Core\\Domain\\Domain\\Guest\\Entities\\Booking.cs*",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAtwBMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T19:04:48.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Action.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Guest\\Enums\\Action.cs",
-              "RelativeDocumentMoniker": "BookingService\\Core\\Domain\\Domain\\Guest\\Enums\\Action.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Guest\\Enums\\Action.cs",
-              "RelativeToolTip": "BookingService\\Core\\Domain\\Domain\\Guest\\Enums\\Action.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T19:03:29.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InvalidEmailException.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Guest\\Exceptions\\InvalidEmailException.cs",
-              "RelativeDocumentMoniker": "BookingService\\Core\\Domain\\Domain\\Guest\\Exceptions\\InvalidEmailException.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Guest\\Exceptions\\InvalidEmailException.cs",
-              "RelativeToolTip": "BookingService\\Core\\Domain\\Domain\\Guest\\Exceptions\\InvalidEmailException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T19:03:14.257Z",
+              "WhenOpened": "2025-06-02T21:57:56.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Room.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Room\\Entities\\Room.cs",
-              "RelativeDocumentMoniker": "BookingService\\Core\\Domain\\Domain\\Room\\Entities\\Room.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Room\\Entities\\Room.cs",
-              "RelativeToolTip": "BookingService\\Core\\Domain\\Domain\\Room\\Entities\\Room.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAewCUAAAAxAAAAAAAAAA==",
+              "Title": "BookingDto.cs",
+              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Application\\Application\\Booking\\Dtos\\BookingDto.cs",
+              "RelativeDocumentMoniker": "BookingService\\Core\\Application\\Application\\Booking\\Dtos\\BookingDto.cs",
+              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Application\\Application\\Booking\\Dtos\\BookingDto.cs",
+              "RelativeToolTip": "BookingService\\Core\\Application\\Application\\Booking\\Dtos\\BookingDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:45:34.171Z",
+              "WhenOpened": "2025-06-02T21:52:29.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CreateRoomRequest.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Application\\Application\\Room\\Request\\CreateRoomRequest.cs",
-              "RelativeDocumentMoniker": "BookingService\\Core\\Application\\Application\\Room\\Request\\CreateRoomRequest.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Application\\Application\\Room\\Request\\CreateRoomRequest.cs",
-              "RelativeToolTip": "BookingService\\Core\\Application\\Application\\Room\\Request\\CreateRoomRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CreateBookingRequest.cs",
+              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Application\\Application\\Booking\\Requests\\CreateBookingRequest.cs",
+              "RelativeDocumentMoniker": "BookingService\\Core\\Application\\Application\\Booking\\Requests\\CreateBookingRequest.cs",
+              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Application\\Application\\Booking\\Requests\\CreateBookingRequest.cs",
+              "RelativeToolTip": "BookingService\\Core\\Application\\Application\\Booking\\Requests\\CreateBookingRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:47:59.875Z",
+              "WhenOpened": "2025-06-02T21:52:21.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IRoomManager.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Application\\Application\\Room\\Ports\\IRoomManager.cs",
-              "RelativeDocumentMoniker": "BookingService\\Core\\Application\\Application\\Room\\Ports\\IRoomManager.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Application\\Application\\Room\\Ports\\IRoomManager.cs",
-              "RelativeToolTip": "BookingService\\Core\\Application\\Application\\Room\\Ports\\IRoomManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Consumers\\API\\API\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "BookingService\\Consumers\\API\\API\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Consumers\\API\\API\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "BookingService\\Consumers\\API\\API\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAjwBoAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:36:10.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RoomManager.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Application\\Application\\Room\\RoomManager.cs",
-              "RelativeDocumentMoniker": "BookingService\\Core\\Application\\Application\\Room\\RoomManager.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Application\\Application\\Room\\RoomManager.cs",
-              "RelativeToolTip": "BookingService\\Core\\Application\\Application\\Room\\RoomManager.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvxQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T17:50:27.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RoomController.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Consumers\\API\\API\\Controllers\\RoomController.cs",
-              "RelativeDocumentMoniker": "BookingService\\Consumers\\API\\API\\Controllers\\RoomController.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Consumers\\API\\API\\Controllers\\RoomController.cs",
-              "RelativeToolTip": "BookingService\\Consumers\\API\\API\\Controllers\\RoomController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAtwBYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T17:42:41.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Utils.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Utils.cs",
-              "RelativeDocumentMoniker": "BookingService\\Core\\Domain\\Domain\\Utils.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Utils.cs",
-              "RelativeToolTip": "BookingService\\Core\\Domain\\Domain\\Utils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:05:55.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GuestManager.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Application\\Application\\Guest\\GuestManager.cs",
-              "RelativeDocumentMoniker": "BookingService\\Core\\Application\\Application\\Guest\\GuestManager.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Application\\Application\\Guest\\GuestManager.cs",
-              "RelativeToolTip": "BookingService\\Core\\Application\\Application\\Guest\\GuestManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:51:41.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GuestController.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Consumers\\API\\API\\Controllers\\GuestController.cs",
-              "RelativeDocumentMoniker": "BookingService\\Consumers\\API\\API\\Controllers\\GuestController.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Consumers\\API\\API\\Controllers\\GuestController.cs",
-              "RelativeToolTip": "BookingService\\Consumers\\API\\API\\Controllers\\GuestController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T14:10:01.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Status.cs",
-              "DocumentMoniker": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Guest\\Enums\\Status.cs",
-              "RelativeDocumentMoniker": "BookingService\\Core\\Domain\\Domain\\Guest\\Enums\\Status.cs",
-              "ToolTip": "C:\\Users\\lenno\\Documents\\projects\\HotelBooking00\\BookingService\\Core\\Domain\\Domain\\Guest\\Enums\\Status.cs",
-              "RelativeToolTip": "BookingService\\Core\\Domain\\Domain\\Guest\\Enums\\Status.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T13:57:47.894Z",
+              "WhenOpened": "2025-06-02T19:53:21.524Z",
               "EditorCaption": ""
             }
           ]

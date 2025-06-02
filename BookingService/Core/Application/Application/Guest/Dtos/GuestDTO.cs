@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Entities = Domain.Entities;
-using Domain.Enums;
+﻿using Domain.Enums;
 
-namespace Application.Guest.DTO
+namespace Application.Guest.Dtos
 {
     public class GuestDTO
     {
@@ -19,13 +13,13 @@ namespace Application.Guest.DTO
 
         public static Domain.Guest.Entities.Guest MapToEntity(GuestDTO guestDTO)
         {
-            return new Entities.Guest
+            return new Domain.Guest.Entities.Guest
             {
                 Id = guestDTO.Id,
                 Name = guestDTO.Name,
                 Surname = guestDTO.Surname,
                 Email = guestDTO.Email,
-                DocumentId = new Domain.ValueObjects.PersonId
+                DocumentId = new Domain.Guest.ValueObjects.PersonId
                 {
                     IdNumber = guestDTO.IdNumber,
                     DocumentType = (DocumentType)guestDTO.IdTypeCode,

@@ -1,4 +1,4 @@
-﻿using Application.Guest.DTO;
+﻿using Application.Guest.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;

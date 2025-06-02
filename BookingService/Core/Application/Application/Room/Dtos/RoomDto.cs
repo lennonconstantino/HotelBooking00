@@ -1,9 +1,4 @@
 ﻿using Domain.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.Room.Dtos
 {
@@ -18,13 +13,13 @@ namespace Application.Room.Dtos
 
         public static Domain.Room.Entities.Room MapToEntity(RoomDto dto)
         {
-            return new Domain.Entities.Room
+            return new Domain.Room.Entities.Room
             {
                 Id = dto.Id,
                 Name = dto.Name,
                 Level = dto.Level,
                 InMaintenance = dto.InMaintenance,
-                Price = new Domain.ValueObjects.Price { Currency = dto.Currency, Value = dto.Price }
+                Price = new Domain.Guest.ValueObjects.Price { Currency = dto.Currency, Value = dto.Price }
             };
         }
     }

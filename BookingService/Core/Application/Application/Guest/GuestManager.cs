@@ -1,4 +1,4 @@
-﻿using Application.Guest.DTO;
+﻿using Application.Guest.Dtos;
 using Application.Guest.Ports;
 using Application.Guest.Request;
 using Application.Guest.Responses;
