@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Exceptions
+namespace Domain.Guest.Exceptions
 {
     public class MissingRequiredInformationExcpetion : Exception
     {

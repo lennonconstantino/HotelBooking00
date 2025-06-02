@@ -1,31 +1,31 @@
 ﻿using Domain.Enums;
 using Action = Domain.Enums.Action;
 
-namespace Domain.Entities
+namespace Domain.Booking.Entities
 {
     public class Booking
     {
         public Booking() 
         {
-            this.Status = Status.Created;
+            Status = Status.Created;
         }
         public int Id { get; set; }
         public DateTime PlacedAt { get; set; }
         public DateTime Start { get; set; }
         public DateTime End { get; set; }
         public Status Status { get; set; }
-        public Room Room { get; set; }
-        public Guest Guess { get; set; }    
-        public Status CurrentStatus { get { return this.Status; } }
+        public Room.Entities.Room Room { get; set; }
+        public Guest.Entities.Guest Guess { get; set; }
+        public Status CurrentStatus { get { return Status; } }
         public void ChangeState(Action action) {
-            this.Status = (this.Status, action) switch
+            Status = (Status, action) switch
             {
                 (Status.Created, Action.Pay) => Status.Paid,
                 (Status.Created, Action.Cancel) => Status.Canceled,
                 (Status.Paid, Action.Finish) => Status.Finished,
                 (Status.Paid, Action.Refound) => Status.Refounded,
                 (Status.Canceled, Action.Reopen) => Status.Canceled,
-                _ => this.Status
+                _ => Status
             };
         }
     }

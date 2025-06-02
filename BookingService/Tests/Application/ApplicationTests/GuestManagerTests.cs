@@ -1,8 +1,10 @@
 using Application;
+using Application.Guest;
 using Application.Guest.DTO;
 using Application.Guest.Request;
-using Domain.Entities;
-using Domain.Ports;
+using Domain.Guest.Entities;
+using Domain.Guest.Enums;
+using Domain.Guest.Ports;
 using Moq;
 using NuGet.Frameworks;
 
@@ -10,7 +12,7 @@ namespace ApplicationTests
 {
     public class Tests
     {
-        GuestManager guestManager;
+        GuestManager _guestManager;
 
         [SetUp]
         public void Setup()
@@ -38,9 +40,9 @@ namespace ApplicationTests
                 It.IsAny<Guest>())
             ).Returns(Task.FromResult(expectedId));
 
-            guestManager = new GuestManager(fakeRepo.Object);
+            _guestManager = new GuestManager(fakeRepo.Object);
 
-            var res = await guestManager.CreateGuest(request);
+            var res = await _guestManager.CreateGuest(request);
             Assert.IsNotNull(res);
             Assert.IsTrue(res.Success);
             Assert.AreEqual(res.Data.Id, expectedId);
@@ -72,9 +74,9 @@ namespace ApplicationTests
                 It.IsAny<Guest>())
             ).Returns(Task.FromResult(2222));
 
-            guestManager = new GuestManager(fakeRepo.Object);
+            _guestManager = new GuestManager(fakeRepo.Object);
 
-            var res = await guestManager.CreateGuest(request);
+            var res = await _guestManager.CreateGuest(request);
             Assert.IsNotNull(res);
             Assert.IsFalse(res.Success);
             Assert.AreEqual(res.ErrorCodes, ErrorCodes.INVALID_PERSON_ID);
@@ -106,9 +108,9 @@ namespace ApplicationTests
                 It.IsAny<Guest>())
             ).Returns(Task.FromResult(2222));
 
-            guestManager = new GuestManager(fakeRepo.Object);
+            _guestManager = new GuestManager(fakeRepo.Object);
 
-            var res = await guestManager.CreateGuest(request);
+            var res = await _guestManager.CreateGuest(request);
             Assert.IsNotNull(res);
             Assert.IsFalse(res.Success);
             Assert.AreEqual(res.ErrorCodes, ErrorCodes.MISSING_REQUIRED_INFORMATION);
@@ -122,9 +124,9 @@ namespace ApplicationTests
 
             fakeRepo.Setup(x => x.Get(333)).Returns(Task.FromResult<Guest?>(null));
 
-            guestManager = new GuestManager(fakeRepo.Object);
+            _guestManager = new GuestManager(fakeRepo.Object);
 
-            var res = await guestManager.GetGuest(333);
+            var res = await _guestManager.GetGuest(333);
 
             Assert.IsNotNull(res);
             Assert.IsFalse(res.Success);
@@ -143,16 +145,16 @@ namespace ApplicationTests
                 Name = "Test",
                 DocumentId = new Domain.ValueObjects.PersonId
                 {
-                    DocumentType = Domain.Enums.DocumentType.DriveLicence,
+                    DocumentType = DocumentType.DriveLicence,
                     IdNumber = "123"
                 }
             };
 
             fakeRepo.Setup(x => x.Get(333)).Returns(Task.FromResult((Guest?)fakeGuest));
 
-            guestManager = new GuestManager(fakeRepo.Object);
+            _guestManager = new GuestManager(fakeRepo.Object);
 
-            var res = await guestManager.GetGuest(333);
+            var res = await _guestManager.GetGuest(333);
 
             Assert.IsNotNull(res);
             Assert.IsTrue(res.Success);

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Exceptions
+namespace Domain.Guest.Exceptions
 {
-    public class InvalidEmailException : Exception
+    public class InvalidPersonDocumentIdException : Exception
     {
     }
 }

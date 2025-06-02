@@ -2,15 +2,10 @@
 using Application.Guest.Ports;
 using Application.Guest.Request;
 using Application.Guest.Responses;
-using Domain.Exceptions;
-using Domain.Ports;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Domain.Guest.Exceptions;
+using Domain.Guest.Ports;
 
-namespace Application
+namespace Application.Guest
 {
     public class GuestManager : IGuestManager
     {

@@ -17,7 +17,7 @@ namespace Application.Guest.DTO
         public string IdNumber { get; set; }
         public int IdTypeCode { get; set; }
 
-        public static Entities.Guest MapToEntity(GuestDTO guestDTO)
+        public static Domain.Guest.Entities.Guest MapToEntity(GuestDTO guestDTO)
         {
             return new Entities.Guest
             {
@@ -33,7 +33,7 @@ namespace Application.Guest.DTO
             };
         }
 
-        public static GuestDTO MapToDto(Entities.Guest guest)
+        public static GuestDTO MapToDto(Domain.Guest.Entities.Guest guest)
         {
             return new GuestDTO
             {
