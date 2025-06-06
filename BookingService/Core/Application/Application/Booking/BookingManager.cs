@@ -3,16 +3,29 @@ using Application.Booking.Exceptions;
 using Application.Booking.Ports;
 using Application.Booking.Requests;
 using Application.Booking.responses;
+using Application.Room.Ports;
 using Domain.Booking.Exceptions;
 using Domain.Booking.Ports;
+using Domain.Guest.Ports;
+using Domain.Room.Exceptions;
+using Domain.Room.Ports;
 
 namespace Application.Booking
 {
     public class BookingManager : IBookingManager
     {
         private readonly IBookingRepository _bookingRepository;
-        public BookingManager(IBookingRepository bookingRepository)
+        private readonly IRoomRepository _roomRepository;
+        private readonly IGuestRepository _guestRepository;
+        
+        public BookingManager(
+            IBookingRepository bookingRepository,
+            IRoomRepository roomRepository,
+            IGuestRepository guestRepository
+            )
         {
+            _roomRepository = roomRepository;
+            _guestRepository = guestRepository;
             _bookingRepository = bookingRepository;
         }
 
@@ -21,6 +34,9 @@ namespace Application.Booking
             try
             {
                 var booking = BookingDto.MapToEntity(request.Data);
+                int Id = request.Data.GuestId;
+                booking.Guest = await _guestRepository.Get(Id);
+                booking.Room = await _roomRepository.GetAggregate(request.Data.RoomId);
                 
                 await booking.Save(_bookingRepository);
 
@@ -75,6 +91,15 @@ namespace Application.Booking
                     Success = false,
                     ErrorCodes = ErrorCodes.BOOKING_MISSING_REQUIRED_INFORMATION,
                     Message = "Guest is a required information"
+                };
+            }
+            catch (RoomCannotBeBookedException)
+            {
+                return new BookingResponse
+                {
+                    Success = false,
+                    ErrorCodes = ErrorCodes.BOOKING_ROOM_CANNOT_BE_BOOKED,
+                    Message = "The selected Room is not available"
                 };
             }
             catch (Exception ex)

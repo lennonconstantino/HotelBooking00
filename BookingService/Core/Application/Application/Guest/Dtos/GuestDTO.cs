@@ -1,4 +1,4 @@
-﻿using Domain.Enums;
+﻿using Domain.Guest.Enums;
 
 namespace Application.Guest.Dtos
 {

@@ -2,8 +2,8 @@
 {
     public interface IBookingRepository
     {
-        Task<Entities.Booking> GetBooking(int id);
-        Task<Entities.Booking> CreateBooking(Entities.Booking booking);
+        Task<Guest.Entities.Booking> GetBooking(int id);
+        Task<Guest.Entities.Booking> CreateBooking(Guest.Entities.Booking booking);
 
     }
 }

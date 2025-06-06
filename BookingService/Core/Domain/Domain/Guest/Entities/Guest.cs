@@ -14,15 +14,10 @@ namespace Domain.Guest.Entities
 
         public bool IsValid()
         {
-            try
-            {
+
                 this.ValidateState();
                 return true;
-            }
-            catch (Exception)
-            {
-                return false;
-            }
+            
         }
         private void ValidateState()
         {

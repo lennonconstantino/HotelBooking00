@@ -12,14 +12,14 @@ namespace Data.Booking
         {
             _hotelDbContext = hotelDbContext;
         }
-        public async Task<Domain.Entities.Booking> CreateBooking(Domain.Entities.Booking booking)
+        public async Task<Domain.Guest.Entities.Booking> CreateBooking(Domain.Guest.Entities.Booking booking)
         {
             _hotelDbContext.Bookings.Add(booking);
             await _hotelDbContext.SaveChangesAsync();
             return booking;
         }
 
-        public Task<Domain.Entities.Booking> GetBooking(int id)
+        public Task<Domain.Guest.Entities.Booking> GetBooking(int id)
         {
             return _hotelDbContext.Bookings.Where(x => x.Id == id).FirstAsync();
         }

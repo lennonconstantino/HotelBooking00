@@ -22,7 +22,7 @@ namespace Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Domain.Entities.Booking", b =>
+            modelBuilder.Entity("Domain.Guest.Entities.Booking", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -33,7 +33,7 @@ namespace Data.Migrations
                     b.Property<DateTime>("End")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("GuessId")
+                    b.Property<int>("GuestId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("PlacedAt")
@@ -50,14 +50,14 @@ namespace Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("GuessId");
+                    b.HasIndex("GuestId");
 
                     b.HasIndex("RoomId");
 
                     b.ToTable("Bookings");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Guess", b =>
+            modelBuilder.Entity("Domain.Guest.Entities.Guest", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -82,7 +82,7 @@ namespace Data.Migrations
                     b.ToTable("Guests");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Room", b =>
+            modelBuilder.Entity("Domain.Room.Entities.Room", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -105,30 +105,30 @@ namespace Data.Migrations
                     b.ToTable("Rooms");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Booking", b =>
+            modelBuilder.Entity("Domain.Guest.Entities.Booking", b =>
                 {
-                    b.HasOne("Domain.Entities.Guess", "Guess")
+                    b.HasOne("Domain.Guest.Entities.Guest", "Guest")
                         .WithMany()
-                        .HasForeignKey("GuessId")
+                        .HasForeignKey("GuestId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Domain.Entities.Room", "Room")
-                        .WithMany()
+                    b.HasOne("Domain.Room.Entities.Room", "Room")
+                        .WithMany("Bookings")
                         .HasForeignKey("RoomId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Guess");
+                    b.Navigation("Guest");
 
                     b.Navigation("Room");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Guess", b =>
+            modelBuilder.Entity("Domain.Guest.Entities.Guest", b =>
                 {
-                    b.OwnsOne("Domain.ValueObjects.PersonId", "DocumentId", b1 =>
+                    b.OwnsOne("Domain.Guest.ValueObjects.PersonId", "DocumentId", b1 =>
                         {
-                            b1.Property<int>("GuessId")
+                            b1.Property<int>("GuestId")
                                 .HasColumnType("int");
 
                             b1.Property<int>("DocumentType")
@@ -138,21 +138,21 @@ namespace Data.Migrations
                                 .IsRequired()
                                 .HasColumnType("nvarchar(max)");
 
-                            b1.HasKey("GuessId");
+                            b1.HasKey("GuestId");
 
                             b1.ToTable("Guests");
 
                             b1.WithOwner()
-                                .HasForeignKey("GuessId");
+                                .HasForeignKey("GuestId");
                         });
 
                     b.Navigation("DocumentId")
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Domain.Entities.Room", b =>
+            modelBuilder.Entity("Domain.Room.Entities.Room", b =>
                 {
-                    b.OwnsOne("Domain.ValueObjects.Price", "Price", b1 =>
+                    b.OwnsOne("Domain.Guest.ValueObjects.Price", "Price", b1 =>
                         {
                             b1.Property<int>("RoomId")
                                 .HasColumnType("int");
@@ -173,6 +173,11 @@ namespace Data.Migrations
 
                     b.Navigation("Price")
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Domain.Room.Entities.Room", b =>
+                {
+                    b.Navigation("Bookings");
                 });
 #pragma warning restore 612, 618
         }

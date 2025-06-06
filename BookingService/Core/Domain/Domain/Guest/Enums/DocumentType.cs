@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data.Booking
+namespace Domain.Guest.Enums
 {
-    public class BookingConfiguration
+    public enum DocumentType
     {
+        Passport = 1,
+        DriveLicence = 2,
     }
 }

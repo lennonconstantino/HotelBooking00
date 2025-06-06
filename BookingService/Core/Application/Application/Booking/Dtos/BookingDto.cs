@@ -1,4 +1,4 @@
-﻿using Domain.Enums;
+﻿using Domain.Guest.Enums;
 
 namespace Application.Booking.Dtos
 {
@@ -12,20 +12,20 @@ namespace Application.Booking.Dtos
         public DateTime PlacedAt { get; set; }
         public DateTime Start { get; set; }
         public DateTime End { get; set; }
-        public int GuestId { get; set; }
         public int RoomId { get; set; }
-        //public Status Status { get; set; }
+        public int GuestId { get; set; }
+        private Status Status { get; set; }
 
-        public static Domain.Entities.Booking MapToEntity(BookingDto bookingDto) 
+        public static Domain.Guest.Entities.Booking MapToEntity(BookingDto bookingDto) 
         {
-            return new Domain.Entities.Booking
+            return new Domain.Guest.Entities.Booking
             {
                 Id = bookingDto.Id,
                 PlacedAt = bookingDto.PlacedAt,
                 Start = bookingDto.Start,
                 End = bookingDto.End,
                 Guest = new Domain.Guest.Entities.Guest { Id = bookingDto.GuestId },
-                Room = new Domain.Room.Entities.Room { Id = bookingDto.RoomId }, 
+                Room = new Domain.Room.Entities.Room { Id = bookingDto.RoomId },  
             };
         }
     }

@@ -1,17 +1,19 @@
 ﻿using Application.Booking.Exceptions;
 using Domain.Booking.Exceptions;
 using Domain.Booking.Ports;
-using Domain.Enums;
-using Action = Domain.Enums.Action;
+using Domain.Guest.Enums;
+using Domain.Room.Exceptions;
+using Action = Domain.Guest.Enums.Action;
 
 
-namespace Domain.Entities
+namespace Domain.Guest.Entities
 {
     public class Booking
     {
         public Booking() 
         {
             Status = Status.Created;
+            PlacedAt = DateTime.UtcNow;
         }
         public int Id { get; set; }
         public DateTime PlacedAt { get; set; }
@@ -19,7 +21,7 @@ namespace Domain.Entities
         public DateTime End { get; set; }
         public Status Status { get; set; }
         public Room.Entities.Room Room { get; set; }
-        public Guest.Entities.Guest Guest { get; set; }
+        public Guest Guest { get; set; }
         public Status CurrentStatus { get { return Status; } }
         public void ChangeState(Action action) {
             Status = (Status, action) switch
@@ -37,7 +39,7 @@ namespace Domain.Entities
         {
             try
             {
-                this.ValidateState();
+                ValidateState();
                 return true;
             }
             catch (Exception)
@@ -48,24 +50,23 @@ namespace Domain.Entities
 
         private void ValidateState() 
         {
-            if (this.PlacedAt == default(DateTime))
+            if (PlacedAt == default)
             {
                 throw new PlacedAtIsARequiredInformationException();
             }
-            if (this.Start == default(DateTime))
+            if (Start == default)
             {
                 throw new StartDateTimeIsRequiredException();
             }
-            if (this.End == default(DateTime))
+            if (End == default)
             {
                 throw new EndDateTimeIsRequiredException();
             }
-            if (this.Room == null)
+            if (Room == null)
             {
                 throw new RoomIsRequiredException();
             }
-            if (this.Guest == null 
-                || !this.Guest.IsValid()) 
+            if (Guest == null) 
             {
                 throw new GuestIsRequiredException();
             }
@@ -73,9 +74,16 @@ namespace Domain.Entities
 
         public async Task Save(IBookingRepository bookingRepository)
         {
-            this.ValidateState();
+            ValidateState();
 
-            if (this.Id == 0)
+            Guest.IsValid();
+
+            if (!Room.CanBeBooked()) 
+            {
+                throw new RoomCannotBeBookedException();
+            }
+
+            if (Id == 0)
             {
                 var resp = await bookingRepository.CreateBooking(this);
                 this.Id = resp.Id;

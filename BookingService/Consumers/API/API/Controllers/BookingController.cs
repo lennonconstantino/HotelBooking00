@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace API.Controllers
 {
     [ApiController]
-    [Route("controller")]
+    [Route("[controller]")]
     public class BookingController : ControllerBase
     {
         private readonly ILogger<BookingController> _logger;
