@@ -2,7 +2,6 @@
 using Domain.Booking.Exceptions;
 using Domain.Booking.Ports;
 using Domain.Guest.Enums;
-using Domain.Room.Exceptions;
 using Action = Domain.Guest.Enums.Action;
 
 

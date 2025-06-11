@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Data.Migrations
 {
     [DbContext(typeof(HotelDbContext))]
-    [Migration("20250603014936_AddingForeignKeyToBooking")]
+    [Migration("20250611140928_AddingForeignKeyToBooking")]
     partial class AddingForeignKeyToBooking
     {
         /// <inheritdoc />
@@ -25,7 +25,7 @@ namespace Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Domain.Entities.Booking", b =>
+            modelBuilder.Entity("Domain.Guest.Entities.Booking", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -108,7 +108,7 @@ namespace Data.Migrations
                     b.ToTable("Rooms");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Booking", b =>
+            modelBuilder.Entity("Domain.Guest.Entities.Booking", b =>
                 {
                     b.HasOne("Domain.Guest.Entities.Guest", "Guest")
                         .WithMany()

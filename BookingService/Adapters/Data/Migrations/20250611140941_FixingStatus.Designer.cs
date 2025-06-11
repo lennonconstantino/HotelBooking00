@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Data.Migrations
 {
     [DbContext(typeof(HotelDbContext))]
-    [Migration("20250606134037_FixingStatus")]
+    [Migration("20250611140941_FixingStatus")]
     partial class FixingStatus
     {
         /// <inheritdoc />
