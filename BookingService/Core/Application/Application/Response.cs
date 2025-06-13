@@ -29,6 +29,9 @@ namespace Application
         BOOKING_MISSING_REQUIRED_INFORMATION = 203,
         BOOKING_INVALID_EMAIL = 204,
         BOOKING_ROOM_CANNOT_BE_BOOKED = 205,
+
+        // Payment Related codes 500 - 1000
+        PAYMENT_INVALID_PAYMENT_INTENTION = 500,
     }
     public abstract class Response
     {
